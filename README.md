@@ -10,7 +10,7 @@ every segment is defined purely by what customers do with the card.
 
 ---
 
-## The problem
+## The Problem
 
 A bank's marketing team sends one credit card offer to the entire portfolio. This project
 asks whether that portfolio is actually one audience.
@@ -134,7 +134,7 @@ independent signals:
 3. **Davies-Bouldin 1.4821 and Calinski-Harabasz 970.75** - both acceptable at k=3.
 4. **Business utility** - three segments can each own a campaign and a budget. Eight cannot.
 
-### Final model
+### Final Model
 
 | Metric | Value | Direction |
 | --- | ---: | --- |
@@ -150,7 +150,7 @@ dormant group sits low.
 
 ---
 
-## Repository structure
+## Repository Structure
 
 ```
 P1G6_daffa_hutapea.ipynb        EDA, preprocessing, model training and evaluation
@@ -191,7 +191,7 @@ There are no demographic fields. See `dataset-description.png` for the full data
 
 ---
 
-## Getting started
+## Getting Started
 
 Requires Python 3.10 or newer.
 
@@ -261,7 +261,7 @@ that row at validation.
 - **No demographic or temporal data**, so segments describe behavior only and cannot be
   cross-checked against customer lifecycle.
 
-## Future work
+## Future Work
 
 1. **Test HDBSCAN.** Density-based clustering handles non-spherical shapes and can leave a
    genuine outlier unlabeled instead of forcing it into a segment.
