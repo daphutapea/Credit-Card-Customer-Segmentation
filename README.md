@@ -296,5 +296,4 @@ that row at validation.
 **Daffa Narendra Hutapea**
 Hacktiv8 Data Science Full-Time Program, Batch HCK-040
 
-Built as Graded Challenge 6 (clustering). The bank in the brief is fictional; the data,
-pipeline and results are real.
+The bank in the brief is fictional; the data, pipeline and results are real.
